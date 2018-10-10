@@ -93,6 +93,18 @@ div , footer {
 	margin: 60px auto;
 }
 
+hr {
+	opacity: .3;
+}
+
+#icon {
+	font-size: 18px;
+}
+
+#skillicon {
+	font-size: 18px;
+}
+
 .hero {
 	margin: 50px auto; 
 	position: relative;
@@ -109,7 +121,7 @@ h1.name {
 	background-color: #D9E7F8;
 	color: #4A90E2;
 	font-weight: 600;
-	margin-top: 5px;
+	margin-top: 6px;
 	margin-left: 20px;
 	border-radius: 5px;
 	display: inline-block;
@@ -147,14 +159,22 @@ h1.name {
 	height: 50px;
 }
 
+.skillsection {
+	vertical-align: top;
+	display: inline-block;
+	width: 49.7%;
+	height: 50px;
+	/* margin-top: 5px; */
+}
+
 .section-title {
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
 
 .list-card {
-	margin: 30px 0;
+	margin-bottom: 50px;
 }
 
 .list-card .exp , .list-card div{
@@ -176,7 +196,7 @@ h1.name {
 .list-card h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #5B6A9A;
+	color: #4A90E2;
 	line-height: 26px;
 	margin-bottom: 8px;
 }
@@ -195,11 +215,11 @@ h1.name {
 .cards {
 	max-width: 1120px;
 	display: block;
-	margin-top: 350px;
+	margin-top: 220px;
 }
 
 .card {
-	width: 47.9%;
+	width: 400px;
 	height: 200px;
 	background-color: #EEF0F7;
 	display: inline-block;
@@ -262,6 +282,8 @@ h1.name {
 	font-size: 16px;
 }
 
+
+
 /* Achievements ends */
 
 
@@ -273,9 +295,10 @@ h1.name {
 ol {
 	position: relative;
 	display: block;
-	margin: 100px 0;
+	margin: 200px 0;
 	height: 2px;
 	background: #EEF0F7;
+	width: 950px;
 
 }
 ol::before,
@@ -305,8 +328,9 @@ li {
 	position: relative;
 	display: inline-block;
 	float: left;
-	width: 25%;
-  	height: 50px;
+	width: 30%;
+	  height: 50px;
+	  
 }
 li .line {
   position: absolute;
@@ -315,6 +339,7 @@ li .line {
   font-size: 20px;
   font-weight: 600;
   color: #04143A;
+  
 }
 li .point {
 	content: "";
@@ -327,6 +352,7 @@ li .point {
 	border-radius: 10px;
 	background: #4A90E2;
   position: absolute;
+  
 }
 li .description {
   display: none;
@@ -340,6 +366,7 @@ li .description {
   font-weight: 600;
   line-height: 25px;
   color: #5B6A9A;
+  
 }
 .description::before {
   content: '';
@@ -358,6 +385,15 @@ li .description {
 	font-size: 14px;
 	color: #81899C;
 	font-weight: 300;
+	
+}
+
+.aboutjob {
+	font-size: 16px;
+	color: #81899C;
+	font-weight: bolder;
+	
+	
 }
 
 /* ---- Hover effects ---- */
@@ -366,6 +402,7 @@ li:hover {
 }
 li .description {
   display: block;
+  
 }
 
 /*timeline ends*/
@@ -416,8 +453,10 @@ li .description {
 	.timeline li{
 		margin-top: 70px;
 		height: 150px;
+		
 	}
 }
+
 
 
 @media(max-width: 425px) {
@@ -453,9 +492,11 @@ li .description {
 		margin: 0px;
 		padding: 0 15px;
 	}
-	footer {
-		margin-top: 2050px;
+	
 	}
+
+	footer {
+		margin-top: 300px;
 	}
 
 
