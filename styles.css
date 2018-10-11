@@ -168,9 +168,9 @@ h1.name {
 }
 
 .section-title {
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .list-card {
@@ -186,7 +186,7 @@ h1.name {
 	margin-right: 15px;
 	color: #4A90E2;
 	font-weight: 600;
-	width: 100px;
+	width: 140px;
 }
 
 .list-card div {
@@ -194,15 +194,15 @@ h1.name {
 }
 
 .list-card h3 {
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: 600;
 	color: #4A90E2;
 	line-height: 26px;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
 }
 
 .list-card div span {
-	font-size: 16px;
+	font-size: 18px;
 	color: #81899C;
 	line-height: 22px;
 }
@@ -295,10 +295,10 @@ h1.name {
 ol {
 	position: relative;
 	display: block;
-	margin: 200px 0;
+	margin: 400px 0;
 	height: 2px;
 	background: #EEF0F7;
-	width: 950px;
+	width: 900px;
 
 }
 ol::before,
@@ -336,7 +336,7 @@ li .line {
   position: absolute;
   top: -47px;
   left: 1%;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   color: #04143A;
   
@@ -361,11 +361,10 @@ li .description {
   position: relative;
   font-weight: normal;
   z-index: 1;
-  max-width: 95%;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 25px;
-  color: #5B6A9A;
+  color: #4A90E2;
   
 }
 .description::before {
@@ -389,9 +388,10 @@ li .description {
 }
 
 .aboutjob {
-	font-size: 16px;
+	font-size: 20px;
 	color: #81899C;
 	font-weight: bolder;
+	line-height: 20px;
 	
 	
 }
